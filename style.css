@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+nav {
+  padding-bottom: 20px;
+}
+
+#about_me{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+
