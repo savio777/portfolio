@@ -24,14 +24,17 @@ nav {
 
 .image_back {
   width: 500px;
-  opacity: 0.4;
+  opacity: 0.2;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
-.image_back:hover{
-  background: rgba(0, 0, 0, 0.9);
+.shadow {
+  -moz-box-shadow: inset 0 0 50px #212121;
+  -webkit-box-shadow: inset 0 0 50px #212121;
+  box-shadow: inset 0 0 50px #212121;
 }
 
-.image_back:hover{
+.image_back:hover {
+  background: rgba(0, 0, 0, 0.9);
   opacity: 1;
 }
