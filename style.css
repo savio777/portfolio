@@ -8,10 +8,30 @@ nav {
   padding-bottom: 20px;
 }
 
-#about_me{
+#about_me {
   text-align: center;
   margin-top: 200px;
   margin-bottom: 300px;
 }
 
+.container_image_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /*margin-top: -40px;*/
+}
 
+.image_back {
+  width: 500px;
+  opacity: 0.4;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.image_back:hover{
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.image_back:hover{
+  opacity: 1;
+}
